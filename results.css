@@ -182,7 +182,7 @@ body {
 .circle p {
     text-align: center;
     color: hsl(241, 100%, 89%);
-    font-size: 18px;
+    font-size: 1.2rem;
     
 
 }
@@ -222,7 +222,7 @@ h3 {
     line-height: 1.4rem;
     padding: 0.5rem 3rem 1.5rem 3rem;
     color: hsl(241, 100%, 89%);
-    font-size: 18px;
+    font-size: 1.2rem;
     margin: 0.5rem;
 }
 

@@ -1,0 +1,391 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    ;
+}
+
+body {
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all {
+    display: flex;
+    max-width: 750px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 40px 36px 36px -19px rgba(222, 216, 240, 1);
+}
+
+.sec {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+
+}
+
+.circle {
+    max-width: 100%;
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    padding: 3.5rem;
+    margin: 1rem 1.5rem;
+
+
+}
+
+.circle p {
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+    
+
+}
+
+h4 {
+    text-align: center;
+    font-weight: 400;
+    color: hsl(241, 100%, 89%);
+    font-size: 1.5rem;
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin: 1rem;
+    padding-top: 2rem;
+
+
+}
+
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 5rem;
+    color: white;
+    padding: 1rem;
+}
+
+h3 {
+    text-align: center;
+    padding: 0.5rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.higher-score {
+    text-align: center;
+    line-height: 1.4rem;
+    padding: 0.5rem 3rem 1.5rem 3rem;
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+    margin: 0.5rem;
+}
+
+
+
+.sec2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+    margin: 2.5rem 1rem 1rem 1rem;
+
+}
+
+.summ-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+
+
+.abilities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 70%;
+    border-radius: 15px;
+    margin: 0.5rem 0.75rem;
+    padding: 1rem;
+
+}
+
+.icon-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+}
+
+
+.abilities:nth-of-type(1) {
+    background-color: hsl(0, 100%, 67%, 0.1);
+}
+
+.abilities:nth-of-type(2) {
+    background: hsl(39, 100%, 56%, 0.1);
+   
+}
+
+.abilities:nth-of-type(3) {
+    background: hsl(166, 100%, 37%, 0.1);
+   
+}
+
+.abilities:nth-of-type(4) {
+    background: hsl(234, 85%, 45%, 0.1);
+ 
+
+}
+
+
+h5{
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+
+.ability-type1 {
+   color: hsl(0, 100%, 67%);
+
+}
+
+.ability-type2 {
+    color: hsl(39, 100%, 56%);
+}
+
+.ability-type3 {
+    color: hsl(166, 100%, 37%);
+}
+
+.ability-type4 {
+    color: hsl(234, 85%, 45%);
+
+}
+
+b {
+    font-weight: bold;
+    color: hsl(224, 30%, 27%);
+    margin-right: 0.5rem;
+}
+
+.abilities p {
+    font-weight: bold;
+    color: grey;
+}
+
+img {
+    margin-right: 0.5rem;
+}
+
+button {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border-radius: 30px;
+    align-self: center;
+    width: 80%;
+    padding: 1rem;
+    margin: 3rem 1rem 1.5rem 1rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    cursor: pointer;
+    border: none;
+}
+
+@media screen and (max-width: 650px) {
+    body {
+        align-items: flex-start;
+
+    }
+
+    .all {
+        flex-direction: column;
+    
+    }
+
+    .sec {
+        height: 25%;
+        width: 100%;
+        flex-wrap: wrap;
+        border-radius: 0px 0px 20% 20%;
+
+
+    }
+
+    .sec2 {
+        height: 50%;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+  
+
+   
+}
